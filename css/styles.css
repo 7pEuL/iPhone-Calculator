@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  transform: all 0.5s ease;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.body {
+  background: radial-gradient(#d5d6d5, #1a2b11);
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 667px;
+  margin: 0 auto;
+}
+
+.clock {
+  position: relative;
+  top: -15px;
+  left: 145px;
+}
+
+.phone {
+  width: 355px;
+  height: 652px;
+  background: rgb(219, 163, 19);
+  margin: 7px auto;
+  border: 1px solid rgb(231, 137, 42);
+  border-radius: 50px;
+}
+
+.responsive {
+  width: 350px;
+  height: 642px;
+  background: black;
+  margin: 5px auto;
+  border-radius: 50px;
+}
+
+.speaker {
+  position: relative;
+  top: 3%;
+  left: 41%;
+  border: 1px solid white;
+  background: radial-gradient(rgb(253, 207, 164), rgb(226, 204, 185));
+  height: 5px;
+  width: 70px;
+  border-radius: 25px;
+}
+
+.glass {
+  position: relative;
+  top: 8.4px;
+  left: 164%;
+  border: 1px solid #3b3a3a;
+  border-bottom-color: black;
+  background: radial-gradient(rgb(24, 24, 23), rgb(0, 0, 0));
+  height: 50px;
+  width: 56px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+}
+
+.finger {
+  position: relative;
+  top: 11px;
+  left: 67.7%;
+  border: 1px solid #3b3a3a;
+  background: radial-gradient(rgb(24, 24, 23), rgb(31, 23, 16));
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+.container {
+  height: 592px;
+  width: 345px;
+  margin: 0 auto;
+  position: relative;
+  top: 34px;
+  background: black;
+  padding: 2%;
+  border: 1px #3b3a3a solid;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.network {
+  display: flex;
+  color: white;
+}
+
+.network img {
+  width: 30px;
+  position: relative;
+  top: 2px;
+}
+
+.wi-fi img {
+  width: 30px;
+  position: relative;
+  left: -30px;
+  top: -5px;
+}
+
+.battery img {
+  width: 70px;
+}
+
+.imgStatus {
+  display: flex;
+  gap: 30px;
+  height: 21px;
+}
+
+.clock {
+  color: white;
+  position: relative;
+  left: -35px;
+  top: 1px;
+  font-size: 11px;
+}
+
+.result {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: white;
+  height: 30%;
+  font-size: 100px;
+  margin-right: 15px;
+  position: relative;
+  top: -50px;
+}
+
+.result span {
+  margin-right: 1-px;
+  font-size: 100px;
+}
+
+.buttons {
+  width: 100%;
+  height: 387px;
+  background-color: rgb(20, 20, 20);
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  position: relative;
+  top: -53px;
+}
+
+.unit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  border-radius: 100%;
+  width: 67px;
+  height: 67px;
+  margin: 5px 0;
+  align-self: center;
+  justify-self: center;
+  cursor: pointer;
+  border: none;
+}
+
+.sign,
+.equals {
+  font-size: 37px;
+  font-weight: 500;
+  padding-bottom: 7px;
+}
+
+.negative {
+  font-size: 37px;
+  letter-spacing: -3px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.percent {
+  background-color: #f5f4f4;
+  color: black;
+}
+
+.unit1 {
+  background-color: #f5f4f4;
+  color: black;
+}
+
+.unit3 {
+  background-color: #ff9f0a;
+}
+
+.numbers,
+.dot {
+  background-color: #747373;
+}
+
+.unitZero {
+  width: 150px;
+  border-radius: 135px;
+  grid-column: span 2;
+  padding-right: 77px;
+  font-size: 30px;
+}
+
+.selectedSign {
+  background-color: white;
+  color: #ff9f0a;
+}
+
+.changedStyles {
+  font-size: 10px;
+}
